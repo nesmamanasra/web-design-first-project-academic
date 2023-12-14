@@ -3,10 +3,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: var(--white-97, #F7F7F8);
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background: var(--white-97, #F7F7F8);
 }
 a{
     text-decoration: none;
@@ -70,4 +71,7 @@ header .auth .log{
     color: #fff ;
     border:2px solid var(--orange-50, #FF9500);
     background: var(--orange-50, #FF9500);
+}
+main{
+    height: 100vh;
 }
