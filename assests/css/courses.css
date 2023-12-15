@@ -1,0 +1,44 @@
+.courses{
+    padding: 50px;
+}
+.courses  h1{
+    color: var(--Grey-15, #262626);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 200%; 
+    font-size: 40px;
+}
+.courses .row-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+}
+.courses-text-left , .courses-btn-right{
+    width: calc((100% - 40px) / 2);
+}
+.courses-text-left {
+    gap: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.courses-btn-right{
+    background-color: #fff;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    width:120px;
+    height: 63px;
+    border-radius: 8px;
+}
+.courses-btn-right a{
+    padding: 14px; 
+    border-radius: 2px; 
+    font-family: 'Inter' , sans-serif;
+    display: flex;
+}
+.courses-btn-right .viwe a{
+    color: #000;
+    text-align: center;
+}
