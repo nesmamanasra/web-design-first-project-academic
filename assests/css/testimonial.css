@@ -12,33 +12,113 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 40px;
 }
 .testimonials-text-left , .testimonials-btn-right{
     width: calc((100% - 40px) / 2);
 }
 .testimonials-text-left {
-    gap: 300px;
     display: flex;
     flex-wrap: wrap;
+}
+.testimonials-text-left p{
+    font-size: 12px;
+    font-weight: 400;
 }
 .testimonials-btn-right{
     background-color: #fff;
     display: flex;
+    justify-content: center;
     padding: 10px;
     align-items: center;
-    width:120px;
-    height: 63px;
-    border-radius: 8px;
+    width:90px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
 }
-.testimonials-btn-right a{
-    padding: 14px; 
-    border-radius: 2px; 
-    font-family: 'Inter' , sans-serif;
-    display: flex;
-}
-.testimonials-btn-right .viwe a{
+.testimonials-btn-right .view{
     color: #000;
     text-align: center;
+    font-size: 13px;
+}
+.card-testimonials{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.testimonials-item{
+     /* width: 100%;
+    height: 100%; */
+    display: flex;
+    /* padding: 30px; */
+    flex-direction: column;
+    /* align-items: flex-end; */
+    gap: 20px;
+    /* flex: 1  0; */
+    border-radius: 10px;
+    background: var(--Absolute-White, #FFF);
+    margin-bottom: 20px;
+}
+.itme-one-testimonials{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 25px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+.content {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+.content p{
+    font-size: 11px;
+    font-weight: 500;
+}
+.user-row{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 15px 50px;
+    align-items: center;
+    align-self: stretch;
+    background: var(--White-99, #FCFCFD);
+    border-radius: 8px;
+    gap: 10px;
+}
+.pic-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1 0 0;
+}
+.pic-user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.pic-user span{
+    font-size: 11px;
+    font-weight: 600;
+}
+.btn{
+display: flex;
+padding: 12px 18px;
+justify-content: center;
+align-items: center;
+/* gap: 8px; */
+border-radius: 8px;
+border: 1px solid var(--White-95, #F1F1F3);
+background: var(--White-97, #F7F7F8);
+}
+.btn a {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--Grey-15, #262626);
 }

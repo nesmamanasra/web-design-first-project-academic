@@ -12,33 +12,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 40px;
 }
 .courses-text-left , .courses-btn-right{
     width: calc((100% - 40px) / 2);
 }
 .courses-text-left {
-    gap: 300px;
     display: flex;
     flex-wrap: wrap;
+}
+.courses-text-left p{
+    font-size: 12px;
+    font-weight: 400;
 }
 .courses-btn-right{
     background-color: #fff;
     display: flex;
+    justify-content: center;
     padding: 10px;
     align-items: center;
-    width:120px;
-    height: 63px;
-    border-radius: 8px;
+    width:90px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
 }
-.courses-btn-right a{
-    padding: 14px; 
-    border-radius: 2px; 
-    font-family: 'Inter' , sans-serif;
-    display: flex;
-}
-.courses-btn-right .viwe a{
+.courses-btn-right .view{
     color: #000;
     text-align: center;
+    font-size: 13px;
 }
