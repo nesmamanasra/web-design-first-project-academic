@@ -1,0 +1,14 @@
+.container-video {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+padding: 30px;
+}
+.container-video img{
+    width: 100%;
+height: 100%;
+border-radius: 8px;
+border: 16px solid var(--White-97, #F7F7F8);
+}
