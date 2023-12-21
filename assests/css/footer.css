@@ -80,7 +80,6 @@ footer .icon-item{
 footer .icon-item a {
     font-size: 14px;
 }
-
 footer .line {
     display: flex;
     width: 100%;
@@ -90,8 +89,6 @@ footer .line {
     gap: 50px;
     border-bottom: 1px solid #F1F1F3;
 }
-
-
 .reserved{
     color: var(--Grey-40, #656567);
     text-align: center;
