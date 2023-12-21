@@ -1,12 +1,12 @@
 .courses{
     padding: 50px;
 }
-.courses  h1{
+.courses h1{
     color: var(--Grey-15, #262626);
     font-style: normal;
     font-weight: 600;
     line-height: 200%; 
-    font-size: 20px;
+    font-size: 40px;
 }
 .courses .row-item{
     display: flex;
