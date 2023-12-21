@@ -7,18 +7,18 @@
     font-weight: 600;
 }
 .main-row{
-display: flex;
-width: 999px;
-flex-direction: column;
-align-items: center;
-gap: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 .main-svg svg{
     width: 20px;
     height: 30px;
     position: absolute;
-    left: 29%;
-    top: 22%;
+    left: 33.5%;
+    top: 18%;
 }
 .box-item-main{
      display: flex;
