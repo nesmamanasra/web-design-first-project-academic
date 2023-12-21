@@ -18,7 +18,8 @@ header{
     top: 0;
     z-index: 9;
     border-bottom: 1px solid var(--white-95, #F1F1F3);
-    padding:20px 0 ;
+    background: var(--White-97, #F7F7F8);
+    padding:10px 0 ;
 }
 .container{
     width: calc(100% - 120px);

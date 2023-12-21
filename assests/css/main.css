@@ -1,0 +1,75 @@
+.main{
+    padding: 50px;
+}
+.main  h1{
+    color: var(--Grey-15, #262626);
+    font-style: normal;
+    font-weight: 600;
+}
+.main-row{
+display: flex;
+width: 999px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+.main-svg svg{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    left: 29%;
+    top: 22%;
+}
+.box-item-main{
+     display: flex;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+}
+.box-item-main svg{
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    background: var(--Orange-95, #FFF4E5);
+}
+.box-item-main b{
+    color: var(--Orange-50, #FF9500);
+}
+.main-row h3{
+    font-weight: 600;
+}
+.main-row p{
+    font-size: 12px;
+}
+.main-btn{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.main-btn a{
+    font-size: 12px;
+    font-family: 600;
+}
+.courses-btn{
+    border-radius: 5px;
+    padding: 10px;
+    gap: 8px;
+    color: #fff;
+    background: var(--Orange-50, #FF9500);
+}
+.pircing-btn{
+    border-radius: 5px;
+    padding: 10px;
+    gap: 8px;
+    color: #000;
+    background: var(--Absolute-White, #FFF);
+}
