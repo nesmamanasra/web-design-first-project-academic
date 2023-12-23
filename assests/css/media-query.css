@@ -1,7 +1,7 @@
 /*-------- media query for menu ------*/
 
-@media only screen and (max-width:800px){
-    header nav ul{
+ @media only screen and (max-width:390px){
+    /* header nav ul{
         position: absolute;
         top: 70px;
         left: 0;
@@ -22,6 +22,7 @@
     .menu-icon{
         display: block;
         cursor: pointer;
-    }
-
+    } */
+     
+   
 }

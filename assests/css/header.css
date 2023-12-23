@@ -75,3 +75,9 @@ header .auth .log{
 main{
     height: 100vh;
 }
+
+@media only screen and (max-width:347px){
+    header{
+        padding: 10px;
+    }
+}
