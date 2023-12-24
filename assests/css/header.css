@@ -72,6 +72,3 @@ header .auth .log{
     border:2px solid var(--orange-50, #FF9500);
     background: var(--orange-50, #FF9500);
 }
-main{
-    height: 100vh;
-}
