@@ -72,3 +72,8 @@ header .auth .log{
     border:2px solid var(--orange-50, #FF9500);
     background: var(--orange-50, #FF9500);
 }
+@media only screen and (max-width:340px){ 
+    header{
+        width:300px;
+    }
+}

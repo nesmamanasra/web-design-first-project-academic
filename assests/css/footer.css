@@ -9,7 +9,7 @@ footer a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 40px;
 }
 .footer-left-side ,.footer-right-side{
@@ -97,3 +97,29 @@ footer .line {
     line-height: 150%;
 }
 
+/*-------- media query for menu ------*/
+
+@media only screen and (max-width:347px){ 
+    .footer{
+        width:530px;
+    }
+    /* .footer-right-side{
+        display: flex;
+        gap: 30px;
+    } */
+    .footer-item-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+        padding: 25px;
+    }
+    .footer-item-right nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 30px;
+    }
+  
+}
