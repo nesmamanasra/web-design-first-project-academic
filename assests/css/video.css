@@ -46,7 +46,7 @@ border: 16px solid var(--White-97, #F7F7F8);
 }
 /*-------- media query for menu ------*/
 
-@media only screen and (max-width:347px){ 
+@media only screen and (max-width:390px){ 
     .icons-company{
         padding: 10px;
         display: flex;
@@ -68,15 +68,16 @@ border: 16px solid var(--White-97, #F7F7F8);
 
     .container-video {
         display: flex;
-        width: 280px;
-        height: 247px;
+        /* width: 500px; */
+        /* height: 247px; */
         justify-content: center;
         align-items: center;
         gap: 10px;
         flex-shrink: 0;
+        margin-top: -40px;
     }    
     .container-video img{
-        width: 399px;
+        width: 390px;
         height: 247px;
         }
    
